@@ -1,0 +1,127 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "projectName": "Scoreboard",
+      "colorClass": "color-scoreboard"
+    },
+    {
+      "id": 2,
+      "projectName": "Flight Booking",
+      "colorClass": "color-flight"
+    },
+    {
+      "id": 3,
+      "projectName": "Product Cart",
+      "colorClass": "color-productCart"
+    },
+    {
+      "id": 4,
+      "projectName": "Book Store",
+      "colorClass": "color-bookstore"
+    },
+    {
+      "id": 5,
+      "projectName": "Blog Application",
+      "colorClass": "color-blog"
+    },
+    {
+      "id": 6,
+      "projectName": "Job Finder",
+      "colorClass": "color-jobFinder"
+    }
+  ],
+  "team": [
+    {
+      "name": "Susmoy Sen Gupta",
+      "avatar": "/images/avatars/susmoy.jpg",
+      "id": 1
+    },
+    {
+      "name": "John Doe",
+      "avatar": "/images/avatars/john.png",
+      "id": 2
+    },
+    {
+      "name": "Akshay Kumar",
+      "avatar": "/images/avatars/akshay.png",
+      "id": 3
+    },
+    {
+      "name": "Sarah",
+      "avatar": "/images/avatars/sarah.png",
+      "id": 4
+    },
+    {
+      "name": "Walker",
+      "avatar": "/images/avatars/walker.png",
+      "id": 5
+    }
+  ],
+  "tasks": [
+    {
+      "taskName": "Implement RTK Query",
+      "teamMember": {
+        "name": "Susmoy Sen Gupta",
+        "avatar": "/images/avatars/susmoy.jpg",
+        "id": 1
+      },
+      "project": {
+        "id": 2,
+        "projectName": "Flight Booking",
+        "colorClass": "color-flight"
+      },
+      "deadline": "2023-05-30",
+      "id": 1,
+      "status": "completed"
+    },
+    {
+      "taskName": "Implement JEST",
+      "teamMember": {
+        "name": "John Doe",
+        "avatar": "/images/avatars/john.png",
+        "id": 2
+      },
+      "project": {
+        "id": 1,
+        "projectName": "Scoreboard",
+        "colorClass": "color-scoreboard"
+      },
+      "deadline": "2023-06-01",
+      "id": 2,
+      "status": "inProgress"
+    },
+    {
+      "taskName": "Deploy in Netlify",
+      "teamMember": {
+        "name": "Sarah",
+        "avatar": "/images/avatars/sarah.png",
+        "id": 4
+      },
+      "project": {
+        "id": 1,
+        "projectName": "Scoreboard",
+        "colorClass": "color-scoreboard"
+      },
+      "deadline": "2023-06-02",
+      "id": 3,
+      "status": "pending"
+    },
+    {
+      "taskName": "Add delete operation",
+      "teamMember": {
+        "name": "John Doe",
+        "avatar": "/images/avatars/john.png",
+        "id": 2
+      },
+      "project": {
+        "id": 3,
+        "projectName": "Product Cart",
+        "colorClass": "color-productCart"
+      },
+      "deadline": "2023-05-25",
+      "id": 4,
+      "status": "inProgress"
+    }
+  ]
+}
